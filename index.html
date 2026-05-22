@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Maison Yedidya · La maison à Butembo qu'il vous suffit de visiter</title>
+  <meta name="description" content="On cultive nous-mêmes la nourriture des enfants. On accueille seulement les plus petits (0-6 ans). Et on vous montre tout. Bienvenue dans la Maison Yedidya, à Butembo, RDC." />
+  <link rel="canonical" href="https://yedidya-enfance.com/" />
+
+  <!-- Hreflang FR / RDC -->
+  <link rel="alternate" hreflang="fr-FR" href="https://yedidya-enfance.com/" />
+  <link rel="alternate" hreflang="fr-CD" href="https://yedidya-enfance.com/" />
+  <link rel="alternate" hreflang="x-default" href="https://yedidya-enfance.com/" />
+
+  <!-- OG -->
+  <meta property="og:title" content="Maison Yedidya · Une maison à Butembo, RDC" />
+  <meta property="og:description" content="On cultive nous-mêmes la nourriture. On accueille les 0-6 ans. On vous montre tout." />
+  <meta property="og:image" content="https://yedidya-enfance.com/assets/photos/02-enfants-abigail-noella-achille-nehema.jpeg" />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" href="../assets/logo/logo-yedidya-32.png" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="loader.css" />
+  <link rel="preload" as="image" href="../assets/video/yedidya-kids-poster.jpg" />
+  <link rel="preload" as="video" href="../assets/video/yedidya-kids.webm" type="video/webm" />
+</head>
+<body>
+
+  <!-- ============== BANDEAU LIVE ============== -->
+  <div class="top-banner">
+    <span class="dot"></span>
+    À Butembo, ce <b id="day-label">mardi</b> · <b id="time-label">14:32</b> · 24°C ensoleillé
+    · <span class="dot"></span> Vidéo prise il y a 2 h au potager
+  </div>
+
+  <!-- ============== HEADER ============== -->
+  <header class="header">
+    <div class="nav">
+      <a href="#" class="logo">
+        <img src="../assets/logo/logo-yedidya-180.png" alt="Logo Yedidya" />
+        <div class="logo-text">
+          Maison Yedidya
+          <small>Butembo · RDC · 2020</small>
+        </div>
+      </a>
+
+      <nav>
+        <ul class="nav-rooms">
+          <li><a href="#cuisine"><span class="icon">🥣</span>Cuisine</a></li>
+          <li><a href="#potager"><span class="icon">🌱</span>Potager</a></li>
+          <li><a href="#dortoir"><span class="icon">🛏️</span>Dortoir</a></li>
+          <li><a href="#infirmerie"><span class="icon">🩺</span>Infirmerie</a></li>
+          <li><a href="#etude"><span class="icon">📚</span>Étude</a></li>
+          <li><a href="#chantier"><span class="icon">🏗️</span>Chantier</a></li>
+          <li><a href="#bureau"><span class="icon">📊</span>Bureau</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-cta">
+        <a href="#soutenir" class="btn-donate">
+          <span>💛</span> Donner
+        </a>
+        <button class="menu-toggle" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============== COVER MAGAZINE ============== -->
+  <section class="cover">
+    <div class="container">
+      <div class="cover-grid">
+        <div class="cover-text reveal">
+          <div class="cover-issue">N°1 · Été 2026 · Bienvenue à la maison</div>
+          <h1>
+            Voici la maison<br/>
+            qu'il vous <em>suffit</em><br/>
+            de <span class="underline">visiter</span>.
+          </h1>
+          <p class="cover-lead">
+            On cultive nous-mêmes la nourriture des enfants.<br/>
+            On accueille seulement les plus petits (0 à 6 ans).<br/>
+            Et on vous montre tout.
+          </p>
+          <div class="cover-byline">
+            <span><strong>Butembo</strong>, Nord-Kivu, République Démocratique du Congo</span>
+          </div>
+          <div class="cover-actions">
+            <a href="#sommaire" class="btn-donate">Entrer dans la maison →</a>
+            <a href="#bureau" class="btn-secondary">Voir le bureau ouvert</a>
+          </div>
+        </div>
+
+        <div class="cover-visual reveal">
+          <img src="../assets/photos/01-orphelinat-butembo.jpeg"
+               alt="La Maison Yedidya à Butembo"
+               class="cover-photo" />
+          <div class="cover-photo-caption">
+            <strong>Photo de couverture</strong>
+            La maison actuelle, en location, à Butembo. Le terrain de la future maison est à 800 m.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== SOMMAIRE — LES PIÈCES ============== -->
+  <section class="rooms" id="sommaire">
+    <div class="container">
+      <div class="rooms-header reveal">
+        <div>
+          <div class="chapter-num">Sommaire de ce numéro</div>
+          <h2>Le plan de la maison.</h2>
+        </div>
+        <p>
+          Notre maison a 8 pièces. Chaque pièce est un endroit où l'on
+          a besoin de vous. Cliquez sur celle qui vous parle.
+        </p>
+      </div>
+
+      <div class="rooms-plan">
+        <a href="#cuisine" class="room-card reveal">
+          <div class="room-icon">🥣</div>
+          <div class="room-num">Pièce 1</div>
+          <div class="room-name">La cuisine</div>
+          <div class="room-desc">Repas du jour, recettes congolaises, alimentation bio.</div>
+        </a>
+        <a href="#potager" class="room-card reveal">
+          <div class="room-icon">🌱</div>
+          <div class="room-num">Pièce 2</div>
+          <div class="room-name">Le potager</div>
+          <div class="room-desc">Plantations, élevages, calendrier des récoltes.</div>
+        </a>
+        <a href="#dortoir" class="room-card reveal">
+          <div class="room-icon">🛏️</div>
+          <div class="room-num">Pièce 3</div>
+          <div class="room-name">Le dortoir</div>
+          <div class="room-desc">La vie quotidienne, le sommeil, les jeux.</div>
+        </a>
+        <a href="#infirmerie" class="room-card reveal">
+          <div class="room-icon">🩺</div>
+          <div class="room-num">Pièce 4</div>
+          <div class="room-name">L'infirmerie</div>
+          <div class="room-desc">Soins, vaccinations, notre infirmière.</div>
+        </a>
+        <a href="#etude" class="room-card reveal">
+          <div class="room-icon">📚</div>
+          <div class="room-num">Pièce 5</div>
+          <div class="room-name">La salle d'étude</div>
+          <div class="room-desc">Premiers apprentissages, cahiers, crayons.</div>
+        </a>
+        <a href="#chantier" class="room-card reveal">
+          <div class="room-icon">🏗️</div>
+          <div class="room-num">Pièce 6</div>
+          <div class="room-name">Le chantier</div>
+          <div class="room-desc">La nouvelle maison qu'on bâtit en 2026.</div>
+        </a>
+        <a href="#bureau" class="room-card reveal">
+          <div class="room-icon">📊</div>
+          <div class="room-num">Pièce 7</div>
+          <div class="room-name">Le bureau ouvert</div>
+          <div class="room-desc">Nos comptes en clair, mois après mois.</div>
+        </a>
+        <a href="#courrier" class="room-card reveal">
+          <div class="room-icon">💌</div>
+          <div class="room-num">Pièce 8</div>
+          <div class="room-name">Le courrier</div>
+          <div class="room-desc">Nous écrire, nous lire, rejoindre la famille.</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== CETTE SEMAINE ============== -->
+  <section class="week">
+    <div class="container">
+      <div class="chapter-num">Cette semaine à Yedidya</div>
+      <h2>Trois nouvelles fraîches.</h2>
+
+      <div class="week-grid">
+        <article class="week-card reveal">
+          <div class="week-card-img">
+            <img src="../assets/photos/16-collation.jpeg" alt="Collation à la maison" />
+            <span class="date">Mardi · 11 h</span>
+          </div>
+          <div class="week-card-body">
+            <span class="week-card-tag olive">🌱 Du potager</span>
+            <h3>Les haricots verts sont prêts.</h3>
+            <p>3,2 kg récoltés ce matin. Ils seront cuisinés ce soir avec un peu d'huile de palme.</p>
+            <a href="#potager" class="week-card-readmore">Voir le potager →</a>
+          </div>
+        </article>
+
+        <article class="week-card reveal">
+          <div class="week-card-img">
+            <img src="../assets/photos/12-enfants-2022-mars.jpeg" alt="" />
+            <span class="date">Lundi · 18 h</span>
+          </div>
+          <div class="week-card-body">
+            <span class="week-card-tag">🩺 De l'infirmerie</span>
+            <h3>Trois vaccinations cette semaine.</h3>
+            <p>L'infirmière a passé la matinée à Butembo-Centre pour récupérer les doses.</p>
+            <a href="#infirmerie" class="week-card-readmore">Voir l'infirmerie →</a>
+          </div>
+        </article>
+
+        <article class="week-card reveal">
+          <div class="week-card-img">
+            <img src="../assets/photos/01-orphelinat-butembo.jpeg" alt="" />
+            <span class="date">Dimanche · 9 h</span>
+          </div>
+          <div class="week-card-body">
+            <span class="week-card-tag soleil">🏗️ Du chantier</span>
+            <h3>L'acte de propriété est signé.</h3>
+            <p>Le terrain de la nouvelle maison est à nous. Les fondations commencent en juin.</p>
+            <a href="#chantier" class="week-card-readmore">Voir le chantier →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== PIÈCE 1 — CUISINE ============== -->
+  <section class="visit-room scroll-anchor" id="cuisine">
+    <div class="container">
+      <div class="visit-grid">
+        <div class="visit-text reveal">
+          <div class="chapter-num">Pièce 1 · La cuisine</div>
+          <h2>Ici, on mange ce qu'on cultive.</h2>
+          <p>
+            60 % de notre budget mensuel passe dans l'alimentation. Pour faire mieux
+            avec moins, on fait pousser nous-mêmes la plupart de ce qu'on sert :
+            manioc, haricots, légumes verts, œufs de nos poules, fruits de saison.
+          </p>
+          <p>
+            <em>Tout est bio.</em> Pas par mode, par bon sens : moins de produits chimiques,
+            plus de goût, et un sol qui restera fertile pour la prochaine génération
+            d'enfants accueillis.
+          </p>
+          <div class="visit-stats">
+            <div class="visit-stat">
+              <strong>3</strong>
+              <span>REPAS PAR JOUR</span>
+            </div>
+            <div class="visit-stat">
+              <strong>100%</strong>
+              <span>BIO</span>
+            </div>
+            <div class="visit-stat">
+              <strong>~2,40 €</strong>
+              <span>COÛT JOURNALIER / ENFANT</span>
+            </div>
+          </div>
+        </div>
+        <div class="visit-visual reveal">
+          <img src="../assets/photos/16-collation.jpeg"
+               alt="Une collation à la Maison Yedidya"
+               class="visit-photo" />
+          <div class="visit-label">100 % bio</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== PIÈCE 2 — POTAGER ============== -->
+  <section class="visit-room scroll-anchor" id="potager">
+    <div class="container">
+      <div class="visit-grid reverse">
+        <div class="visit-text reveal">
+          <div class="chapter-num">Pièce 2 · Le potager</div>
+          <h2>Le calendrier d'une terre généreuse.</h2>
+          <p>
+            À Butembo, on a deux saisons des pluies par an, ce qui permet
+            <em>trois récoltes</em>. Voici ce que la terre nous donne en ce moment.
+          </p>
+
+          <div class="seasons">
+            <div class="season">
+              <strong>Janv-Mars</strong>
+              <span>Manioc · Patates douces</span>
+            </div>
+            <div class="season">
+              <strong>Avr-Juin</strong>
+              <span>Haricots · Maïs</span>
+            </div>
+            <div class="season current">
+              <strong>Juill-Sept</strong>
+              <span>EN COURS<br/>Tomates · Aubergines</span>
+            </div>
+            <div class="season">
+              <strong>Oct-Déc</strong>
+              <span>Bananes · Légumes verts</span>
+            </div>
+          </div>
+
+          <p style="margin-top: 24px;">
+            On élève aussi <strong>8 poules pondeuses</strong> et <strong>2 chèvres</strong>
+            qui donnent des œufs et du lait frais chaque semaine.
+          </p>
+        </div>
+        <div class="visit-visual reveal">
+          <img src="../assets/photos/15-divers.jpeg"
+               alt="Le potager de la Maison Yedidya"
+               class="visit-photo" />
+          <div class="visit-label" style="background: var(--olive); color: var(--ivoire); transform: rotate(-2deg);">
+            🌿 Récolte du mois
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== PIÈCE 3 — DORTOIR + MUR DES PETITS ============== -->
+  <section class="little-things scroll-anchor" id="dortoir">
+    <div class="container">
+      <div class="little-things-header reveal">
+        <div class="chapter-num">Pièce 3 · Le dortoir</div>
+        <h2>Le mur des petites choses.</h2>
+        <p>
+          On ne publie pas les visages des enfants. On préfère vous montrer
+          les <em>petites choses</em> qui font une maison. Voici quelques-unes
+          des nôtres.
+        </p>
+      </div>
+
+      <div class="little-grid">
+        <div class="little-item reveal">
+          <div class="emoji">👟</div>
+          <strong>Une sandale</strong>
+          <span>Bleue, taille 28, retrouvée sous le lit</span>
+        </div>
+        <div class="little-item reveal">
+          <div class="emoji">🧸</div>
+          <strong>Un ours en peluche</strong>
+          <span>Sans nom, mais très aimé</span>
+        </div>
+        <div class="little-item reveal">
+          <div class="emoji">📓</div>
+          <strong>Un cahier</strong>
+          <span>Première page : un dessin de soleil</span>
+        </div>
+        <div class="little-item reveal">
+          <div class="emoji">🌼</div>
+          <strong>Une fleur</strong>
+          <span>Cueillie au potager ce matin</span>
+        </div>
+        <div class="little-item reveal">
+          <div class="emoji">🥣</div>
+          <strong>Une cuillère</strong>
+          <span>Toujours la même, choisie par Léa</span>
+        </div>
+        <div class="little-item reveal">
+          <div class="emoji">🎨</div>
+          <strong>Des crayons</strong>
+          <span>Bouts cassés, mais utilisés à fond</span>
+        </div>
+        <div class="little-item reveal">
+          <div class="emoji">📚</div>
+          <strong>Un livre</strong>
+          <span>« Les trois petits cochons » en swahili</span>
+        </div>
+        <div class="little-item reveal">
+          <div class="emoji">⚽</div>
+          <strong>Un ballon</strong>
+          <span>Patché trois fois, encore en jeu</span>
+        </div>
+        <div class="little-item reveal">
+          <div class="emoji">🌙</div>
+          <strong>Une veilleuse</strong>
+          <span>Pour les nuits où on a peur</span>
+        </div>
+        <div class="little-item reveal">
+          <div class="emoji">🪥</div>
+          <strong>Une brosse à dents</strong>
+          <span>Rouge, pour ne pas la confondre</span>
+        </div>
+        <div class="little-item reveal">
+          <div class="emoji">🎂</div>
+          <strong>Une bougie</strong>
+          <span>Pour les anniversaires découverts</span>
+        </div>
+        <div class="little-item reveal">
+          <div class="emoji">📷</div>
+          <strong>Une photo</strong>
+          <span>Le seul souvenir d'avant</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== PIÈCE 4 — INFIRMERIE ============== -->
+  <section class="visit-room scroll-anchor" id="infirmerie">
+    <div class="container">
+      <div class="visit-grid">
+        <div class="visit-text reveal">
+          <div class="chapter-num">Pièce 4 · L'infirmerie</div>
+          <h2>Une infirmière, et beaucoup d'attention.</h2>
+          <p>
+            <strong>Béatrice</strong> est infirmière diplômée d'État. Elle suit
+            la croissance de chaque enfant, gère les premiers soins, organise
+            les vaccinations, et fait le lien avec l'hôpital de Butembo
+            quand un cas dépasse ses compétences.
+          </p>
+          <p>
+            Chaque enfant a son <em>carnet de santé</em>. Vaccinations,
+            poids, taille, dents, premières maladies — tout est noté, suivi,
+            traité. Parce qu'arriver ici, c'est aussi être enfin <em>regardé</em>.
+          </p>
+          <div class="visit-stats">
+            <div class="visit-stat">
+              <strong>1</strong>
+              <span>INFIRMIÈRE DIPLÔMÉE</span>
+            </div>
+            <div class="visit-stat">
+              <strong>100 %</strong>
+              <span>ENFANTS VACCINÉS</span>
+            </div>
+            <div class="visit-stat">
+              <strong>8 €</strong>
+              <span>COÛT D'UNE VACCINATION</span>
+            </div>
+          </div>
+        </div>
+        <div class="visit-visual reveal">
+          <img src="../assets/photos/03-visite-unicef.jpeg"
+               alt="Soins à la Maison Yedidya — validation UNICEF"
+               class="visit-photo" />
+          <div class="visit-label unicef-label" style="transform: rotate(-2deg);">
+            <img src="../assets/partners/unicef-logo.svg" alt="UNICEF" />
+            <span>Normes validées</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== PIÈCE 5 — SALLE D'ÉTUDE ============== -->
+  <section class="visit-room scroll-anchor" id="etude">
+    <div class="container">
+      <div class="visit-grid reverse">
+        <div class="visit-text reveal">
+          <div class="chapter-num">Pièce 5 · La salle d'étude</div>
+          <h2>L'éveil avant l'école.</h2>
+          <p>
+            On accueille des enfants de <em>0 à 6 ans</em>. À cet âge,
+            on n'apprend pas par cœur — on découvre, on touche, on chante,
+            on dessine, on commence à lire. Notre salle d'étude est plus
+            une <strong>salle d'éveil</strong>.
+          </p>
+          <p>
+            Pour les plus grands (5-6 ans), on prépare l'entrée à l'école
+            primaire de Butembo. Cahier, crayons, premières lettres,
+            chiffres, et beaucoup de chansons en swahili et en français.
+          </p>
+          <div class="visit-stats">
+            <div class="visit-stat">
+              <strong>12 €</strong>
+              <span>1 KIT SCOLAIRE / AN</span>
+            </div>
+            <div class="visit-stat">
+              <strong>55 €</strong>
+              <span>1 TRIMESTRE D'ÉCOLE</span>
+            </div>
+            <div class="visit-stat">
+              <strong>2</strong>
+              <span>LANGUES PARLÉES</span>
+            </div>
+          </div>
+        </div>
+        <div class="visit-visual reveal">
+          <img src="../assets/photos/09-enfants-2022-fev3.jpeg"
+               alt="Salle d'étude à la Maison Yedidya"
+               class="visit-photo" />
+          <div class="visit-label" style="background: var(--soleil); color: var(--encre); transform: rotate(2deg);">
+            📚 Premiers pas
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== PIÈCE 6 — CHANTIER ============== -->
+  <section class="visit-room scroll-anchor" id="chantier">
+    <div class="container">
+      <div class="visit-grid">
+        <div class="visit-text reveal">
+          <div class="chapter-num">Pièce 6 · Le chantier</div>
+          <h2>La maison qu'on bâtit en 2026.</h2>
+          <p>
+            La maison actuelle est en location. On a acheté un terrain à 800 mètres,
+            et les travaux commencent en <em>juin 2026</em>. On y bâtira plus grand,
+            plus solide, plus accueillant — et surtout, ce sera <strong>chez nous</strong>.
+          </p>
+          <p>
+            Chaque mètre carré coûte environ 250 €. Chaque fenêtre, 500 €.
+            Le toit complet, 12 000 €. Vous pouvez offrir ce que vous voulez.
+          </p>
+          <div class="visit-stats">
+            <div class="visit-stat">
+              <strong>65 000 €</strong>
+              <span>BUDGET TOTAL</span>
+            </div>
+            <div class="visit-stat">
+              <strong>38 %</strong>
+              <span>DÉJÀ COLLECTÉS</span>
+            </div>
+            <div class="visit-stat">
+              <strong>Juin 2026</strong>
+              <span>DÉBUT DES TRAVAUX</span>
+            </div>
+          </div>
+        </div>
+        <div class="visit-visual reveal">
+          <img src="../assets/photos/01-orphelinat-butembo.jpeg"
+               alt="Le terrain du futur centre"
+               class="visit-photo" />
+          <div class="visit-label" style="transform: rotate(-3deg);">
+            ★ Mi-juin 2026
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== PIÈCE 7 — BUREAU OUVERT ============== -->
+  <section class="dashboard scroll-anchor" id="bureau">
+    <div class="container">
+      <div class="text-center reveal">
+        <div class="chapter-num" style="justify-content: center;">Pièce 7 · Le bureau ouvert</div>
+        <h2 style="text-align: center; max-width: 720px; margin: 0 auto;">
+          Nos comptes, en clair, chaque mois.
+        </h2>
+        <p style="text-align: center; max-width: 580px; margin: 16px auto 0; color: var(--gris); font-family: var(--serif); font-style: italic; font-size: 1.1rem;">
+          On préfère vous montrer ce qu'on dépense que de vous le raconter.
+        </p>
+      </div>
+
+      <div class="dashboard-grid">
+        <!-- Camembert dépenses -->
+        <div class="dash-card reveal">
+          <div class="dash-month">Avril 2026 · Budget réel</div>
+          <h3>Où est passé chaque euro ?</h3>
+
+          <div class="donut-wrap">
+            <div class="donut">
+              <div class="donut-center">
+                <strong>2 840 €</strong>
+                <span>Dépensé</span>
+              </div>
+            </div>
+            <ul class="donut-legend">
+              <li>
+                <span class="dot" style="background: var(--olive);"></span>
+                <span><strong>Alimentation</strong> bio</span>
+                <span class="val">60 %</span>
+              </li>
+              <li>
+                <span class="dot" style="background: var(--terre);"></span>
+                <span><strong>Personnel</strong> (5 pers.)</span>
+                <span class="val">30 %</span>
+              </li>
+              <li>
+                <span class="dot" style="background: var(--soleil);"></span>
+                <span><strong>Santé</strong> & école</span>
+                <span class="val">10 %</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Reçus du mois -->
+        <div class="dash-card receipts reveal">
+          <div class="dash-month">Avril 2026 · Derniers reçus</div>
+          <h3>Les achats récents.</h3>
+          <ul>
+            <li>
+              <div class="receipt-icon">🥬</div>
+              <div class="receipt-label">
+                <strong>Manioc + huile</strong>
+                <small>15 avril · marché de Butembo</small>
+              </div>
+              <span class="receipt-amount">42 €</span>
+            </li>
+            <li>
+              <div class="receipt-icon">💊</div>
+              <div class="receipt-label">
+                <strong>3 vaccinations</strong>
+                <small>12 avril · hôpital de Butembo</small>
+              </div>
+              <span class="receipt-amount">24 €</span>
+            </li>
+            <li>
+              <div class="receipt-icon">📓</div>
+              <div class="receipt-label">
+                <strong>Cahiers + crayons</strong>
+                <small>8 avril · papeterie locale</small>
+              </div>
+              <span class="receipt-amount">36 €</span>
+            </li>
+            <li>
+              <div class="receipt-icon">🐔</div>
+              <div class="receipt-label">
+                <strong>Grain pour les poules</strong>
+                <small>3 avril · coopérative</small>
+              </div>
+              <span class="receipt-amount">18 €</span>
+            </li>
+            <li>
+              <div class="receipt-icon">🔧</div>
+              <div class="receipt-label">
+                <strong>Réparation du toit</strong>
+                <small>1 avril · couvreur Mwesa</small>
+              </div>
+              <span class="receipt-amount">95 €</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== DON GRANULAIRE ============== -->
+  <section class="donate scroll-anchor" id="soutenir">
+    <div class="container">
+      <div class="donate-header reveal">
+        <div class="chapter-num" style="justify-content: center; color: var(--soleil);">Soutenir la maison</div>
+        <h2>Vous ne donnez pas <em>à une cause</em>.<br/>Vous achetez une chose précise.</h2>
+        <p>
+          Choisissez ce que vous voulez offrir. Votre don finance exactement cet achat.
+          Reçu fiscal automatique · 66 % déductible · paiement HelloAsso sécurisé.
+        </p>
+      </div>
+
+      <div class="gifts-grid">
+        <button class="gift reveal" data-amount="3" data-label="Un jour de légumes du potager">
+          <div class="gift-emoji">🥬</div>
+          <div class="gift-price">3 €</div>
+          <div class="gift-label">Un jour de légumes du potager</div>
+        </button>
+        <button class="gift reveal" data-amount="5" data-label="Un jour de pain frais">
+          <div class="gift-emoji">🍞</div>
+          <div class="gift-price">5 €</div>
+          <div class="gift-label">Un jour de pain frais</div>
+        </button>
+        <button class="gift reveal" data-amount="8" data-label="Une vaccination">
+          <div class="gift-emoji">💉</div>
+          <div class="gift-price">8 €</div>
+          <div class="gift-label">Une vaccination</div>
+        </button>
+        <button class="gift reveal" data-amount="12" data-label="Un cahier + crayons (1 an)">
+          <div class="gift-emoji">📓</div>
+          <div class="gift-price">12 €</div>
+          <div class="gift-label">Un cahier + crayons (1 an)</div>
+        </button>
+        <button class="gift reveal" data-amount="18" data-label="Un drap brodé Yedidya">
+          <div class="gift-emoji">🛏️</div>
+          <div class="gift-price">18 €</div>
+          <div class="gift-label">Un drap brodé Yedidya</div>
+        </button>
+        <button class="gift reveal active" data-amount="25" data-label="Une semaine de repas pour 1 enfant">
+          <div class="gift-emoji">🥣</div>
+          <div class="gift-price">25 €</div>
+          <div class="gift-label">Une semaine de repas pour 1 enfant</div>
+        </button>
+        <button class="gift reveal" data-amount="35" data-label="Une paire de sandales">
+          <div class="gift-emoji">👟</div>
+          <div class="gift-price">35 €</div>
+          <div class="gift-label">Une paire de sandales</div>
+        </button>
+        <button class="gift reveal" data-amount="55" data-label="Un trimestre d'école">
+          <div class="gift-emoji">🎒</div>
+          <div class="gift-price">55 €</div>
+          <div class="gift-label">Un trimestre d'école</div>
+        </button>
+        <button class="gift reveal" data-amount="120" data-label="1 mois d'entretien du potager">
+          <div class="gift-emoji">🚜</div>
+          <div class="gift-price">120 €</div>
+          <div class="gift-label">1 mois d'entretien du potager</div>
+        </button>
+        <button class="gift reveal" data-amount="250" data-label="1 m² du nouveau centre">
+          <div class="gift-emoji">🧱</div>
+          <div class="gift-price">250 €</div>
+          <div class="gift-label">1 m² du nouveau centre</div>
+        </button>
+        <button class="gift reveal" data-amount="500" data-label="1 fenêtre du nouveau centre">
+          <div class="gift-emoji">🪟</div>
+          <div class="gift-price">500 €</div>
+          <div class="gift-label">1 fenêtre du nouveau centre</div>
+        </button>
+        <button class="gift reveal" data-amount="custom" data-label="Don libre">
+          <div class="gift-emoji">💛</div>
+          <div class="gift-price">∞</div>
+          <div class="gift-label">Don libre</div>
+        </button>
+      </div>
+
+      <div class="donate-summary reveal">
+        <div class="donate-summary-text">
+          Vous offrez : <strong id="gift-label">Une semaine de repas pour 1 enfant</strong>
+        </div>
+        <div class="donate-freq">
+          <button class="active" data-freq="once">Une fois</button>
+          <button data-freq="monthly">Chaque mois</button>
+        </div>
+        <button class="donate-cta" id="gift-submit">
+          Offrir <span id="gift-total">25 €</span> <span id="gift-freq-label">à Yedidya</span> →
+        </button>
+        <div class="donate-trust">
+          🔒 HelloAsso · 🧾 Reçu fiscal 66 % · 🇫🇷 Association loi 1901
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== COURRIER ============== -->
+  <section class="courrier scroll-anchor" id="courrier">
+    <div class="container">
+      <div class="courrier-grid">
+        <div class="reveal">
+          <div class="chapter-num">Pièce 8 · Le courrier</div>
+          <h2>Rejoignez la famille élargie.</h2>
+          <p style="color: var(--gris); margin: 16px 0 0; font-size: 1.05rem; line-height: 1.65;">
+            On envoie une lettre par mois — des nouvelles, des photos, une recette parfois,
+            et l'avancée du chantier. C'est notre façon de vous garder à la maison.
+          </p>
+
+          <div class="envelope" style="margin-top: 32px;">
+            <h3>Une lettre par mois.</h3>
+            <p>Rien d'autre. Pas de spam, pas de relance.</p>
+            <form class="envelope-form">
+              <input type="email" placeholder="votre@email.fr" required />
+              <button type="submit">M'inscrire</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="contacts reveal">
+          <h3 style="margin-bottom: 24px;">Nous joindre directement.</h3>
+          <ul>
+            <li>
+              <div class="icon">✉️</div>
+              <div>
+                <strong>Par email</strong>
+                <span><a href="mailto:bonjour@yedidya-enfance.com">bonjour@yedidya-enfance.com</a></span>
+              </div>
+            </li>
+            <li>
+              <div class="icon">📞</div>
+              <div>
+                <strong>Par téléphone</strong>
+                <span><a href="tel:+33613853242">+33 6 13 85 32 42</a></span>
+              </div>
+            </li>
+            <li>
+              <div class="icon">🇫🇷</div>
+              <div>
+                <strong>Siège France</strong>
+                <span>21 av. Henri Ravera, 92220 Bagneux</span>
+              </div>
+            </li>
+            <li>
+              <div class="icon">🇨🇩</div>
+              <div>
+                <strong>Maison à Butembo</strong>
+                <span>Nord-Kivu, RDC · sur rendez-vous</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== FOOTER ============== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <img src="../assets/logo/logo-yedidya-180.png" alt="" />
+            <div class="logo-text" style="color: var(--ivoire);">
+              Maison Yedidya
+              <small style="color: var(--soleil);">Butembo · RDC · 2020</small>
+            </div>
+          </a>
+          <p>
+            Une maison à Butembo, RDC. <em>On cultive ce qu'on mange,
+            on accueille les plus petits, et on vous montre tout.</em>
+          </p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/orphelinat_yedidya/" aria-label="Instagram">📷</a>
+            <a href="https://www.facebook.com/orphelinatyedidya" aria-label="Facebook">f</a>
+            <a href="https://www.linkedin.com/company/orphelinat-yedidya/" aria-label="LinkedIn">in</a>
+          </div>
+        </div>
+
+        <div>
+          <h5>Les pièces</h5>
+          <ul>
+            <li><a href="#cuisine">La cuisine</a></li>
+            <li><a href="#potager">Le potager</a></li>
+            <li><a href="#dortoir">Le dortoir</a></li>
+            <li><a href="#infirmerie">L'infirmerie</a></li>
+            <li><a href="#etude">La salle d'étude</a></li>
+            <li><a href="#chantier">Le chantier</a></li>
+            <li><a href="#bureau">Le bureau ouvert</a></li>
+            <li><a href="#courrier">Le courrier</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h5>Soutenir</h5>
+          <ul>
+            <li><a href="#soutenir">Faire un don</a></li>
+            <li><a href="#soutenir">Don mensuel</a></li>
+            <li><a href="#soutenir">Mécénat entreprise</a></li>
+            <li><a href="#courrier">Bénévolat</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h5>La famille</h5>
+          <ul>
+            <li><a href="#courrier">Recevoir la lettre</a></li>
+            <li><a href="#courrier">Nous écrire</a></li>
+            <li><a href="#bureau">Voir nos comptes</a></li>
+            <li><a href="#">Mentions légales</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        © 2026 Maison Yedidya · Association loi 1901 · « Aimer · Protéger · Reconstruire »
+      </div>
+    </div>
+  </footer>
+
+  <script src="loader.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
